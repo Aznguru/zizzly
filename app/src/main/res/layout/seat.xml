@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3"
+    android:id="@+id/seat">
+
+    <ImageView
+        android:layout_width="272dp"
+        android:layout_height="284dp"
+        app:srcCompat="@drawable/seat_map"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/seat_map" />
+
+    <Button
+        android:text="00:29:38 remaining"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:id="@+id/button3"
+        android:textColor="@android:color/background_dark"
+        android:background="@android:color/holo_orange_light"
+        android:layout_below="@+id/seat_desc_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="BID NOW ($5)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:id="@+id/seat_bidNow_btn"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_green_dark" />
+
+    <Button
+        android:text="Section 117, Row 4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seat_desc_btn"
+        android:layout_marginTop="92dp"
+        android:textColor="@android:color/background_dark"
+        android:background="@android:color/holo_orange_light"
+        android:layout_below="@+id/seat_map"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
