@@ -3,9 +3,54 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bidding" />
 
+    <TextView
+        android:text="description"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bid_description" />
+
+    <TextView
+        android:text="5:48"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bid_timeRemaining" />
+
+    <TextView
+        android:text="Current bid of $40"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bid_currentBid" />
+
+    <TextView
+        android:text="Active Bidders: 15"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bid_activeBidders" />
+
+    <Button
+        android:text="$1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bid_oneDollar" />
+
+    <Button
+        android:text="$5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bid_fiveDollar" />
+
+    <Button
+        android:text="$10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bid_tenDollar" />
 </LinearLayout>
